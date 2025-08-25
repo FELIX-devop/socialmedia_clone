@@ -1,0 +1,57 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------------< com.instagram:instagram-clone >--------------------
+[INFO] Building instagram-clone 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> spring-boot:3.1.5:run (default-cli) > test-compile @ instagram-clone >>>
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ instagram-clone ---
+[INFO] Copying 2 resources from src/main/resources to target/classes
+[INFO] Copying 0 resource from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ instagram-clone ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ instagram-clone ---
+[INFO] skip non existing resourceDirectory /Users/felixantony/Documents/antony/programming/appclone/backend/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.11.0:testCompile (default-testCompile) @ instagram-clone ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] <<< spring-boot:3.1.5:run (default-cli) < test-compile @ instagram-clone <<<
+[INFO] 
+[INFO] 
+[INFO] --- spring-boot:3.1.5:run (default-cli) @ instagram-clone ---
+[INFO] Attaching agents: []
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+[32m :: Spring Boot :: [39m              [2m (v3.1.5)[0;39m
+
+[2m2025-08-26T03:22:49.367+05:30[0;39m [32m INFO[0;39m [35m87110[0;39m [2m---[0;39m [2m[           main][0;39m [36mc.instagram.InstagramCloneApplication   [0;39m [2m:[0;39m Starting InstagramCloneApplication using Java 22.0.1 with PID 87110 (/Users/felixantony/Documents/antony/programming/appclone/backend/target/classes started by felixantony in /Users/felixantony/Documents/antony/programming/appclone/backend)
+[2m2025-08-26T03:22:49.368+05:30[0;39m [32mDEBUG[0;39m [35m87110[0;39m [2m---[0;39m [2m[           main][0;39m [36mc.instagram.InstagramCloneApplication   [0;39m [2m:[0;39m Running with Spring Boot v3.1.5, Spring v6.0.13
+[2m2025-08-26T03:22:49.368+05:30[0;39m [32m INFO[0;39m [35m87110[0;39m [2m---[0;39m [2m[           main][0;39m [36mc.instagram.InstagramCloneApplication   [0;39m [2m:[0;39m No active profile set, falling back to 1 default profile: "default"
+[2m2025-08-26T03:22:49.579+05:30[0;39m [32m INFO[0;39m [35m87110[0;39m [2m---[0;39m [2m[           main][0;39m [36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m [2m:[0;39m Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+[2m2025-08-26T03:22:49.598+05:30[0;39m [32m INFO[0;39m [35m87110[0;39m [2m---[0;39m [2m[           main][0;39m [36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m [2m:[0;39m Finished Spring Data repository scanning in 17 ms. Found 2 MongoDB repository interfaces.
+[2m2025-08-26T03:22:49.784+05:30[0;39m [32m INFO[0;39m [35m87110[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 8080 (http)
+[2m2025-08-26T03:22:49.788+05:30[0;39m [32m INFO[0;39m [35m87110[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.apache.catalina.core.StandardService  [0;39m [2m:[0;39m Starting service [Tomcat]
+[2m2025-08-26T03:22:49.788+05:30[0;39m [32m INFO[0;39m [35m87110[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.apache.catalina.core.StandardEngine   [0;39m [2m:[0;39m Starting Servlet engine: [Apache Tomcat/10.1.15]
+[2m2025-08-26T03:22:49.828+05:30[0;39m [32m INFO[0;39m [35m87110[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring embedded WebApplicationContext
+[2m2025-08-26T03:22:49.828+05:30[0;39m [32m INFO[0;39m [35m87110[0;39m [2m---[0;39m [2m[           main][0;39m [36mw.s.c.ServletWebServerApplicationContext[0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 443 ms
+[2m2025-08-26T03:22:49.898+05:30[0;39m [32m INFO[0;39m [35m87110[0;39m [2m---[0;39m [2m[           main][0;39m [36morg.mongodb.driver.client               [0;39m [2m:[0;39m MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync|spring-boot", "version": "4.9.1"}, "os": {"type": "Darwin", "name": "Mac OS X", "architecture": "aarch64", "version": "15.5"}, "platform": "Java/Oracle Corporation/22.0.1+8-16"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=null, streamFactoryFactory=null, commandListeners=[], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, CollectionCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.client.model.mql.ExpressionCodecProvider@15f35bc3, com.mongodb.Jep395RecordCodecProvider@167381c7]}, loggerSettings=LoggerSettings{maxDocumentLength=1000}, clusterSettings={hosts=[localhost:27017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='30000 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, sendBufferSize=0}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, sendBufferSize=0}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, contextProvider=null}
+[2m2025-08-26T03:22:49.916+05:30[0;39m [32m INFO[0;39m [35m87110[0;39m [2m---[0;39m [2m[localhost:27017][0;39m [36morg.mongodb.driver.cluster              [0;39m [2m:[0;39m Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=25, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=7291000}
+[2m2025-08-26T03:22:50.068+05:30[0;39m [33m WARN[0;39m [35m87110[0;39m [2m---[0;39m [2m[           main][0;39m [36m.s.s.UserDetailsServiceAutoConfiguration[0;39m [2m:[0;39m 
+
+Using generated security password: 9bd4611a-7d72-465b-beb0-0344d579dc4c
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+[2m2025-08-26T03:22:50.155+05:30[0;39m [32m INFO[0;39m [35m87110[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.s.web.DefaultSecurityFilterChain    [0;39m [2m:[0;39m Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@25c1f5ee, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4bce62b, org.springframework.security.web.context.SecurityContextHolderFilter@7ac48f05, org.springframework.security.web.header.HeaderWriterFilter@15369d73, org.springframework.web.filter.CorsFilter@7bf018dd, org.springframework.security.web.authentication.logout.LogoutFilter@2eb1c615, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@27ffd9f8, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@17216605, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@15a8cebd, org.springframework.security.web.session.SessionManagementFilter@799f354a, org.springframework.security.web.access.ExceptionTranslationFilter@25699aa7, org.springframework.security.web.access.intercept.AuthorizationFilter@a056b26]
+[2m2025-08-26T03:22:50.209+05:30[0;39m [32m INFO[0;39m [35m87110[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 8080 (http) with context path ''
+[2m2025-08-26T03:22:50.212+05:30[0;39m [32m INFO[0;39m [35m87110[0;39m [2m---[0;39m [2m[           main][0;39m [36mc.instagram.InstagramCloneApplication   [0;39m [2m:[0;39m Started InstagramCloneApplication in 1.007 seconds (process running for 1.142)

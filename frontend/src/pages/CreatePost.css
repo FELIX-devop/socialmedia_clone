@@ -1,0 +1,146 @@
+.create-post-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 32px;
+  padding: 24px 0;
+  border-bottom: 1px solid #dbdbdb;
+}
+
+.create-post-header h1 {
+  font-size: 28px;
+  font-weight: 600;
+  color: #262626;
+}
+
+.create-post-container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.create-post-form {
+  background: white;
+  border: 1px solid #dbdbdb;
+  border-radius: 8px;
+  padding: 32px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.form-label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+  color: #262626;
+  font-size: 14px;
+}
+
+.file-input {
+  padding: 8px;
+  border: 2px dashed #dbdbdb;
+  background: #fafafa;
+  cursor: pointer;
+  transition: border-color 0.2s, background-color 0.2s;
+}
+
+.file-input:hover {
+  border-color: #0095f6;
+  background: #f0f8ff;
+}
+
+.file-input:focus {
+  border-color: #0095f6;
+  background: white;
+}
+
+.image-preview {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.image-preview img {
+  max-width: 100%;
+  max-height: 300px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.create-post-form .form-control {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #dbdbdb;
+  border-radius: 4px;
+  font-size: 14px;
+  background: #fafafa;
+  transition: border-color 0.2s, background-color 0.2s;
+  font-family: inherit;
+  resize: vertical;
+}
+
+.create-post-form .form-control:focus {
+  outline: none;
+  border-color: #a8a8a8;
+  background: white;
+}
+
+.create-post-form .btn {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  margin-top: 24px;
+  background: #0095f6;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.create-post-form .btn:hover {
+  background: #0081d6;
+}
+
+.create-post-form .btn:disabled {
+  background: #b2dffc;
+  cursor: not-allowed;
+}
+
+.error {
+  color: #ed4956;
+  font-size: 14px;
+  margin-top: 8px;
+  text-align: center;
+}
+
+.success {
+  color: #2ecc71;
+  font-size: 14px;
+  margin-top: 8px;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .create-post-header {
+    flex-direction: column;
+    gap: 16px;
+    text-align: center;
+  }
+  
+  .create-post-header h1 {
+    font-size: 24px;
+  }
+  
+  .create-post-form {
+    padding: 24px;
+  }
+}
+
+@media (max-width: 480px) {
+  .create-post-form {
+    padding: 20px;
+  }
+  
+  .create-post-header {
+    padding: 16px 0;
+  }
+}

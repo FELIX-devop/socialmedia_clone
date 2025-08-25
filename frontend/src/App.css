@@ -1,0 +1,72 @@
+.App {
+  min-height: 100vh;
+  background-color: #fafafa;
+}
+
+.page {
+  padding-top: 60px;
+  min-height: calc(100vh - 60px);
+}
+
+.auth-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #fafafa;
+}
+
+.auth-container {
+  width: 100%;
+  max-width: 350px;
+}
+
+.auth-logo {
+  font-size: 48px;
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 24px;
+  color: #262626;
+}
+
+.auth-form {
+  background: white;
+  border: 1px solid #dbdbdb;
+  border-radius: 8px;
+  padding: 32px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.auth-form h2 {
+  text-align: center;
+  margin-bottom: 24px;
+  font-weight: 600;
+  color: #262626;
+}
+
+.auth-form .btn {
+  width: 100%;
+  padding: 12px;
+  font-size: 14px;
+  margin-top: 16px;
+}
+
+.auth-footer {
+  text-align: center;
+  margin-top: 16px;
+  padding: 16px;
+  background: white;
+  border: 1px solid #dbdbdb;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.auth-footer a {
+  color: #0095f6;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.auth-footer a:hover {
+  text-decoration: underline;
+}

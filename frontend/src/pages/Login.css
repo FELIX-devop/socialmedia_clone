@@ -1,0 +1,122 @@
+.auth-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #fafafa;
+  padding: 20px;
+}
+
+.auth-container {
+  width: 100%;
+  max-width: 350px;
+}
+
+.auth-logo {
+  font-size: 48px;
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 24px;
+  color: #262626;
+  font-family: 'Instagram Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.auth-form {
+  background: white;
+  border: 1px solid #dbdbdb;
+  border-radius: 8px;
+  padding: 32px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  margin-bottom: 16px;
+}
+
+.auth-form h2 {
+  text-align: center;
+  margin-bottom: 24px;
+  font-weight: 600;
+  color: #262626;
+  font-size: 20px;
+}
+
+.auth-form .form-group {
+  margin-bottom: 16px;
+}
+
+.auth-form .form-control {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #dbdbdb;
+  border-radius: 4px;
+  font-size: 14px;
+  background: #fafafa;
+  transition: border-color 0.2s, background-color 0.2s;
+}
+
+.auth-form .form-control:focus {
+  outline: none;
+  border-color: #a8a8a8;
+  background: white;
+}
+
+.auth-form .btn {
+  width: 100%;
+  padding: 12px;
+  font-size: 14px;
+  margin-top: 16px;
+  background: #0095f6;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.auth-form .btn:hover {
+  background: #0081d6;
+}
+
+.auth-form .btn:disabled {
+  background: #b2dffc;
+  cursor: not-allowed;
+}
+
+.auth-footer {
+  text-align: center;
+  padding: 16px;
+  background: white;
+  border: 1px solid #dbdbdb;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.auth-footer p {
+  margin: 4px 0;
+  font-size: 14px;
+  color: #262626;
+}
+
+.auth-footer strong {
+  color: #0095f6;
+}
+
+.error {
+  color: #ed4956;
+  font-size: 14px;
+  margin-top: 8px;
+  text-align: center;
+}
+
+@media (max-width: 480px) {
+  .auth-container {
+    max-width: 100%;
+  }
+  
+  .auth-form {
+    padding: 24px;
+  }
+  
+  .auth-logo {
+    font-size: 36px;
+  }
+}
